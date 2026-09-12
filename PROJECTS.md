@@ -1,5 +1,27 @@
 # Engineering project notes
 
+## MU0 processor and digital logic
+
+COMP12111 computer-engineering coursework moving from display-decoder logic and a traffic-light finite-state machine to an MU0 processor in Verilog. My recorded commits implement and modify the MU0 ALU, datapath, registers, multiplexers and testbenches. The repository also contains MU0 assembly exercises and FPGA synthesis outputs.
+
+The datapath connects a 12-bit program counter with 16-bit instruction and accumulator registers, operand multiplexers, an ALU, condition flags and memory address/control signals. The recovered source and commit history are preserved in the private `digital-logic-labs` repository. The source was inspected during migration; the original ModelSim/Vivado workflow was not rerun.
+
+## Stump processor architecture
+
+COMP22111 computer-architecture coursework centred on the 16-bit Stump processor. My recorded commits implement or modify the gate-level ALU, condition flags, control decoder, testbench and assembly exercises. The control work covers fetch, execute and memory states, register selection, instruction decoding, branch conditions and memory read/write signals.
+
+The private `processor-design-verilog` repository also retains a course-supplied MU0 reference design used to study processor structure. That reference is clearly separated from my Stump implementation work. The source and FPGA build outputs were inspected during migration; no fresh simulator pass is claimed.
+
+## Microcontrollers
+
+COMP22712 coursework covering memory-mapped peripherals, processor bus reads and writes, GPIO direction, LED/LCD and switch interfaces, interrupts and SystemVerilog peripheral testbenches.
+
+The accessible GitLab repository currently contains one staff-authored initial commit with the supplied `User_Peripheral.sv` template and testbench. No student-authored submission or additional branch was available, so I represent the module here without presenting the starter template as my completed implementation.
+
+## RISC-V assembly
+
+Four COMP15111 lab repositories cover instruction execution, registers, control flow, memory addressing, strings, ABI conventions, methods and stack operations using the Bennett RISC-V simulator. The submitted solutions and written answers retain their original coursework context and attribution.
+
 ## Solar-system visualization
 
 A Three.js scene showing a solar system through perspective and orthographic cameras side by side. The implementation includes a comet with custom Blinn–Phong shaders, an instanced belt of 1,500 asteroids, mouse camera controls and an automatic camera mode.
@@ -38,6 +60,6 @@ A three-vertex example produced valid distinct colours. This was a smoke check r
 
 ## Additional study areas
 
-Other repositories document RISC-V assembly, Verilog processor and digital-logic labs, Haskell quadtrees, Solidity state machines, PHP/MySQL employee management, JavaFX and Java practice, and probability/data notebooks. Some are unfinished learning exercises and are labelled accordingly.
+Other repositories document Haskell quadtrees, Solidity state machines, PHP/MySQL employee management, JavaFX and Java practice, and probability/data notebooks. Some are unfinished learning exercises and are labelled accordingly.
 
 **Source access:** Academic repositories are currently private. Team projects and starter code retain their original attribution. Verification counts describe checks run on 12 September 2026, not claims about production readiness.

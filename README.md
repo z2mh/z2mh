@@ -4,7 +4,7 @@
 
 I build Arabic-first consumer products from problem discovery and product strategy through UX, AI-assisted development, analytics, growth and operations.
 
-Alongside building products, I study Computer Science at the **University of Manchester**. My engineering work spans web applications, computer graphics, systems programming and data structures.
+Alongside building products, I study Computer Science at the **University of Manchester**. My engineering work spans computer engineering, processor architecture, microcontrollers, systems programming, graphics and web applications.
 
 [LinkedIn](https://www.linkedin.com/in/abdulrahmansh/) · [Engineering project notes](PROJECTS.md)
 
@@ -17,6 +17,15 @@ Alongside building products, I study Computer Science at the **University of Man
 | **Taqreeb** | A youth-opportunity initiative supported by a 30-person volunteer team | 300 published opportunities, 60,000 website visitors and one million impressions |
 
 I am also a **Qimam Fellow**, selected among 50 students from more than 18,000 applicants for its leadership development programme.
+
+## Computer engineering and architecture
+
+| Coursework | What it covers | Context |
+| --- | --- | --- |
+| [MU0 processor and digital logic](PROJECTS.md#mu0-processor-and-digital-logic) | Verilog ALU and datapath components, registers, multiplexers, flags, testbenches, assembly and FPGA builds | COMP12111 |
+| [Stump processor architecture](PROJECTS.md#stump-processor-architecture) | A 16-bit gate-level ALU, fetch/execute/memory control decoding, testbench work and assembly | COMP22111 |
+| [Microcontrollers](PROJECTS.md#microcontrollers) | Memory-mapped I/O, bus reads and writes, GPIO, interrupts and peripheral testbenches | COMP22712 |
+| [RISC-V assembly](PROJECTS.md#risc-v-assembly) | Instruction execution, addressing, control flow, ABI conventions and stack operations | COMP15111 |
 
 ## Selected engineering work
 
