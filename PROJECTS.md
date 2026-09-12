@@ -1,4 +1,4 @@
-# Selected university projects
+# Engineering project notes
 
 ## Solar-system visualization
 
