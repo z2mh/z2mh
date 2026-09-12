@@ -6,7 +6,7 @@ I build Arabic-first consumer products from problem discovery and product strate
 
 Alongside building products, I study Computer Science at the **University of Manchester**. My engineering work spans computer engineering, processor architecture, microcontrollers, systems programming, graphics and web applications.
 
-[LinkedIn](https://www.linkedin.com/in/abdulrahmansh/) · [Engineering project notes](PROJECTS.md)
+[LinkedIn](https://www.linkedin.com/in/abdulrahmansh/) · [Engineering project notes](PROJECTS.md) · [All repositories](REPOSITORIES.md)
 
 ## Products and initiatives
 
