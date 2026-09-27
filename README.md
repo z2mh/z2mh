@@ -1,51 +1,50 @@
 # Abdulrahman Alsaher
 
-### AI Product Builder · Product Management · Consumer AI · Founder
+### Applied AI Engineer · AI Product Builder
 
-I build Arabic-first consumer products from problem discovery and product strategy through UX, AI-assisted development, analytics, growth and operations.
+I design and ship Arabic-first AI products from architecture through deployment and measurement. My work covers retrieval-augmented generation, document processing, embeddings, semantic search, multimodal extraction, structured LLM output, production analytics and web/iOS delivery.
 
-Alongside building products, I study Computer Science at the **University of Manchester**. My engineering work spans computer engineering, processor architecture, microcontrollers, systems programming, graphics and web applications.
+I am completing a **BSc in Computer Science at the University of Manchester** and was selected as a **Qimam Fellow** from more than 18,000 applicants.
 
-[LinkedIn](https://www.linkedin.com/in/abdulrahmansh/) · [Engineering project notes](PROJECTS.md) · [All repositories](REPOSITORIES.md)
+[LinkedIn](https://www.linkedin.com/in/abdulrahmansh/) · [AI system case studies](AI_SYSTEMS.md) · [Engineering archive](PROJECTS.md) · [Repository guide](REPOSITORIES.md)
 
-## Products and initiatives
+## Shipped AI products
 
-| Product | What I built | Measured outcome |
+| Product | System I designed and built | Evidence |
 | --- | --- | --- |
-| **Shater** | Arabic-first learning tools that turn study material into summaries, quizzes and flashcards | 4,600+ registered users and 50,000+ generated study items |
-| **Qooti** | Nutrition tracking using AI and barcode scanning | 1,600+ registered users |
-| **Taqreeb** | A youth-opportunity initiative supported by a 30-person volunteer team | 300 published opportunities, 60,000 website visitors and one million impressions |
+| **[Shater](https://learnshater.com)** | Arabic-first study platform that converts PDFs into summaries, quizzes, flashcards and source-grounded chat | **4,600+ users** · **50,000+ generated study items** |
+| **[Daftar](https://yourdaftar.com)** | Bilingual private knowledge system for saving, enriching, searching and discussing documents, screenshots, links, video and notes | Multimodal ingestion · semantic search · web and iOS clients |
+| **Qooti** | Arabic-first nutrition app with AI food-image analysis and barcode scanning | **1,700+ profiles** · **1,000+ confirmed meal logs** |
 
-I am also a **Qimam Fellow**, selected among 50 students from more than 18,000 applicants for its leadership development programme.
+## Applied AI engineering
 
-## Computer engineering and architecture
+- **Retrieval and grounding:** semantic chunking, Cohere and Gemini embeddings, PostgreSQL/pgvector retrieval, reranking, citations and full-document fallback paths.
+- **Multimodal ingestion:** PDF extraction, image OCR, screenshot and document enrichment, structured JSON output and background processing.
+- **Production controls:** retries, content-hash caching, rate limits, spend tracking, authentication, per-user data isolation and deterministic tests.
+- **Product delivery:** TypeScript, Next.js, Supabase, PostgreSQL, Edge Functions, SwiftUI, Vercel, PostHog and RevenueCat.
 
-| Coursework | What it covers | Context |
-| --- | --- | --- |
-| [MU0 processor and digital logic](PROJECTS.md#mu0-processor-and-digital-logic) | Verilog ALU and datapath components, registers, multiplexers, flags, testbenches, assembly and FPGA builds | COMP12111 |
-| [Stump processor architecture](PROJECTS.md#stump-processor-architecture) | A 16-bit gate-level ALU, fetch/execute/memory control decoding, testbench work and assembly | COMP22111 |
-| [Microcontrollers](PROJECTS.md#microcontrollers) | Memory-mapped I/O, bus reads and writes, GPIO, interrupts and peripheral testbenches | COMP22712 |
-| [RISC-V assembly](PROJECTS.md#risc-v-assembly) | Instruction execution, addressing, control flow, ABI conventions and stack operations | COMP15111 |
+Read the architecture and implementation notes in **[AI_SYSTEMS.md](AI_SYSTEMS.md)**.
 
-## Selected engineering work
+## Selected system snapshots
 
-| Project | Focus | Technologies | Verification |
-| --- | --- | --- | --- |
-| [Solar-system visualization](PROJECTS.md#solar-system-visualization) | Two camera views, custom lighting shaders and instanced asteroids | JavaScript, Three.js, GLSL | Browser rendering and controls checked |
-| [EventLite](PROJECTS.md#eventlite) | Team event-management application with web and REST interfaces | Java, Spring Boot, JPA, H2 | 117 tests passed |
-| [Processor emulator](PROJECTS.md#processor-emulator) | Refactoring a small 8-bit processor emulator | C++20, CMake, Catch2 | 83 test cases passed |
-| [Cache simulator](PROJECTS.md#cache-simulator) | Comparing eviction policies using memory-access traces | Python, unittest | 30 tests passed |
-| [Matrix library](PROJECTS.md#matrix-library) | Dynamic allocation, matrix arithmetic and file operations | C, Unity | 17 tests passed |
-| [Register allocation](PROJECTS.md#register-allocation) | Greedy graph colouring for register assignment | Python | Example colouring validated |
+### Shater — document RAG for Arabic learners
 
-![Solar-system visualization with perspective and orthographic views](assets/solar-system.png)
+Shater extracts and chunks student documents, generates embeddings, retrieves relevant context from pgvector and sends grounded prompts to Claude. The chat workflow supports citations, images and explicit fallback behavior when retrieval has not finished. I built the product across the web and iOS surfaces and instrumented the user journey from activation to subscription.
 
-*A real browser capture from my computer-graphics coursework. Planet textures: [Solar System Scope](https://www.solarsystemscope.com/textures/), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).*
+### Daftar — multilingual personal knowledge infrastructure
 
-## What connects the work
+Daftar accepts multiple content types and processes them through enrichment, OCR, embeddings, semantic ranking and auto-filing workflows. The architecture includes background workers, model fallbacks, caching, cost controls and shared web/iOS product behavior.
 
-- I start with the user problem and carry the work through implementation and measurement.
-- I use engineering fundamentals to make practical product decisions.
-- I care about products designed around Arabic-speaking users and their context.
+### Qooti — multimodal consumer AI
 
-Product source is private. University source repositories also remain private while course and team publication permissions are checked; the public [project notes](PROJECTS.md) document scope, contribution context and verification results.
+Qooti combines food-image analysis and barcode lookup in an Arabic-first nutrition flow. I owned product architecture, UX, testing, analytics and operations from the first build through launch.
+
+## Engineering foundations
+
+My academic work includes processor design in Verilog, systems programming in C/C++, RISC-V assembly, cache simulation, Java/Spring services and browser graphics. The **[engineering archive](PROJECTS.md)** separates individual work, team work and course-provided starter code, and records the verification run for each project.
+
+## Current focus
+
+I am interested in applied AI engineering roles where I can build reliable systems around real user workflows: document intelligence, retrieval, structured extraction, internal tools and agent-assisted operations.
+
+Most product source is private because the applications are active. The linked case studies describe the architecture, my contribution and the evidence that can be shared publicly. I can walk through implementation details and selected code in an interview.
